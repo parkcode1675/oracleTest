@@ -2,8 +2,8 @@
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTO Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.example.demo.dao.DeptDao">
-    <select id="selectList" parameterType="com.example.demo.model.Dept" resultType="com.example.demo.model.Dept">
+<mapper namespace="com.myBatis.myService.dao.DeptDao">
+    <select id="selectList" parameterType="com.myBatis.myService.model.Dept" resultType="com.myBatis.myService.model.Dept">
         SELECT 1 AS one
 			   ,2 AS two
 		FROM dual
